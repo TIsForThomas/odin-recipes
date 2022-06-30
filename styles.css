@@ -1,28 +1,53 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td 
+    { 
+        margin:0;
+        padding:0;
+    }
 .title
     {
         text-align: center;
-        font-size: large;
-        background-color: beige;
-        color: rgb(105, 94, 94);
+        font-size: 50px;
+      
+        color: burlywood;
+        font-family: Georgia, 'Times New Roman', Times, serif;
 
     }
-li
+.index-li
     {
         text-align: center;
-        align-items: center;
         font-size: 25px;
         color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 0%;
     }
-.images-index
+.images
     {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        text-align: center;
         width: 50%;
         border-radius: 50%;
         width: 200px;
-        height: auto;
+        height: 200px;
+        margin: auto;
+        display: block;
     }
-
-
-
+.title-card
+    {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        color: brown;
+    }
+.make, .follow
+    {
+        text-align: center;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+.lists
+    {
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 0%;
+        text-align: center;
+    }
